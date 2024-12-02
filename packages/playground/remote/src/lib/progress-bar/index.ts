@@ -11,7 +11,7 @@ export interface ProgressBarOptions {
 class ProgressBar {
 	element: HTMLDivElement;
 	captionElement: HTMLHeadingElement;
-	caption = 'Preparing WordPress';
+	caption = 'Preparing Supablox';
 	progress = 0;
 	isIndefinite = false;
 	visible = true;

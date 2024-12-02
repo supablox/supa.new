@@ -116,7 +116,7 @@ export async function startPlaygroundWeb({
 	remoteUrl = setQueryParams(remoteUrl, {
 		progressbar: !disableProgressBar,
 	});
-	progressTracker.setCaption('Preparing WordPress');
+	progressTracker.setCaption('Preparing Supablox Playground');
 
 	// Set a default blueprint if none is provided.
 	if (!blueprint) {
